@@ -1,0 +1,91 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    color: #e11d48;
+  }
+  
+  /* HAMBURGER */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+  
+  .menu-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+  .menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+  
+  /* MOBILVY */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .navbar-links {
+      position: absolute;
+      top: 60px;
+      left: 0; /* 👈 Detta gör att menyn går över hela bredden */
+      right: 0;
+      background: #1e1e1e;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      padding: 0 2rem; /* 👈 Detta ger luft åt vänster & höger */
+    }
+  
+    .navbar-links.active {
+      max-height: 300px;
+      padding: 1rem 2rem;
+    }
+  
+    .navbar-links li {
+      margin-bottom: 1rem;
+    }
+  }
+  

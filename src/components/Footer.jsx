@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <div className="footer-content">
         <div>
           <h3>Adress</h3>
@@ -40,7 +40,7 @@ function Footer() {
 
         </div>
       </div>
-      <p className="footer-bottom">© {new Date().getFullYear()} Hair by Rodi</p>
+      <p className="footer-bottom">© {new Date().getFullYear()} Hair By Rodi</p>
     </footer>
   );
 }
