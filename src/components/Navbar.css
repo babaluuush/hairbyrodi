@@ -19,6 +19,9 @@
     list-style: none;
     display: flex;
     gap: 2rem;
+    top: 100%;
+    left: 0;
+    right: 0;
   }
   
   .navbar-links li a {
@@ -67,7 +70,7 @@
     .navbar-links {
       position: absolute;
       top: 60px;
-      left: 0; /* 👈 Detta gör att menyn går över hela bredden */
+      left: 0;
       right: 0;
       background: #1e1e1e;
       flex-direction: column;
@@ -76,7 +79,7 @@
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.3s ease-in-out;
-      padding: 0 2rem; /* 👈 Detta ger luft åt vänster & höger */
+      padding: 0 2rem;
     }
   
     .navbar-links.active {

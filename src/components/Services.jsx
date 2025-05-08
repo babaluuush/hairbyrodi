@@ -15,7 +15,7 @@ function Services() {
           <li><span>Damklippning</span><span>490 kr</span></li>
           <li><span>Tvätt & Fön</span><span>300 kr</span></li>
           <li><span>Rakning</span><span>200 kr</span></li>
-          <li><span>Rakning och skägg</span><span>250</span></li>
+          <li><span>Rakning och skägg</span><span>250 kr</span></li>
         </ul>
       </div>
 

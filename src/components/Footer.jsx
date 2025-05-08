@@ -33,7 +33,7 @@ function Footer() {
     alt="Instagram"
     style={{ width: '16px', verticalAlign: 'middle', marginRight: '6px' }}
   />
-  <a href="https://www.instagram.com/rodifeqe/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/hairbyrodi/" target="_blank" rel="noopener noreferrer">
     Följ på Instagram
   </a>
 </p>
