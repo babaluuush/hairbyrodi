@@ -1,0 +1,42 @@
+.hero {
+    background: linear-gradient(to right, #1e1e1e, #2c2c2c);  /* tidigare var #0f0f0f */
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+  }  
+  
+  
+  .hero h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .book-button {
+    background-color: #be123c;;
+    color: white;
+    padding: 0.75rem 1.75rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: fit-content;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  .hero .book-button:hover {
+    background-color: #6b0f1a;
+    
+  }
+  

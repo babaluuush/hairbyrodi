@@ -1,0 +1,47 @@
+.footer {
+    background: linear-gradient(to right, #1e1e1e, #2c2c2c);  /* tidigare var #0f0f0f */
+    color: #ccc; /* Standardfärg för vanlig text */
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-content h3 {
+    color: #fff; /* Rubrikerna: Adress, Kontakt */
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-content p {
+    margin: 0.2rem 0;
+  }
+  
+  .footer-bottom {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+
+  .footer a {
+    color: #e11d48; /* Bara länkar får accentfärg */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }  
+  
+  @media (min-width: 600px) {
+    .footer-content {
+      flex-direction: row;
+      gap: 4rem;
+    }
+  }
+  

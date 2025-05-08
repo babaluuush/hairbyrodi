@@ -1,0 +1,21 @@
+.about {
+    background-color: #fafafa;   /* 🔳 gör att den skiljer sig visuellt */
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+
+  }
+  
+  .about h2 {
+    color: #e11d48;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
