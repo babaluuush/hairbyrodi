@@ -4,6 +4,8 @@ import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import SafeHTMLDemo from './components/SafeHTMLDemo';
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <Services />
       <About />
       <Testimonials />
+      <SafeHTMLDemo />
       <Footer />
     </>
   );
